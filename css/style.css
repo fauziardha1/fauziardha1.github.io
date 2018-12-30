@@ -1,0 +1,79 @@
+html{
+	position: relative;
+}
+body{
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 100px;
+	border: 3px solid #727272;
+	border-radius: 20px;
+	padding: ;: 10px;
+}
+.navbar-inverse{
+	width: inherit;
+	margin-right: 10%;
+	margin-left: 10%;
+	border-radius:10px;
+	position: fixed;
+}
+.jumbotron{
+	border-radius: 10px;
+}
+.jumbotron img{
+	width: 200px;
+	border: 5px solid #727272;
+}
+hr{
+	width: 250px;
+	border-top: 3px solid #999;
+}
+section {
+	min-height: 600px;
+}
+.lorem{
+	margin-left :10px;
+	margin-right: 10px;
+	text-indent: 20px;
+	text-align: justify;
+}
+.portofolio{
+	background-color: lightgray;
+}
+.thumbnail{
+	/*border-radius: 10%*/;
+}
+.thumbnail:hover{
+	transition: 1s;
+	transform: scale(1.1);
+}
+.row{
+	max-width: 1075px;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	background-color: #504848;
+	max-width: 1075px;
+
+}
+.contact{
+	min-height: 800px;
+}
+.kaki{
+	min-height: 100px;
+	background-color: #2a2828;
+	border-radius: 10px;
+	padding: 20px;
+	color:white;
+}
+.kaki .container .row .col-sm-12 p a{
+	color: white;
+}
+.glyphicon .glyphicon-heart{
+	background-color: #f29696;
+}
+.btn-lg{
+	margin: 15px;
+}
